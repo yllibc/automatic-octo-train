@@ -1,0 +1,46 @@
+public class Square
+{
+    protected double length;
+    protected double width;
+    protected double height;
+    protected double surfaceArea;
+    public Square(double len, double wid, double h)
+    {
+       double length = len; 
+       double width = wid; 
+       double surfaceArea = h; 
+    }
+    
+    public double getLength()
+    {
+        return length;
+    }
+    public double getWidth()
+    {
+        return width;
+    }
+    public double getHeight()
+    {
+        return height;
+    }
+    
+    public void setLength(double len)
+    {
+        length = len;
+    }
+    public void setWidth(double wid)
+    {
+        width = wid;
+    }
+    public void setsurfaceArea(double h)
+    {
+        surfaceArea = h;
+    }
+    public double computeSurfaceArea()
+    {
+        surfaceArea = height * width;
+        return surfaceArea;
+    }
+    
+}
+
